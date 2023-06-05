@@ -258,7 +258,7 @@ class ResponseAccess implements ArrayAccess, Iterator, Countable, JsonSerializab
     public function getErrors(): mixed
     {
         if (!$this->hasErrors()) {
-            return;
+            return null;
         }
 
         return isset($this->container['errors']) ? $this->container['errors'] : $this->container['error'];
