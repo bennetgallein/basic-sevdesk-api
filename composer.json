@@ -1,22 +1,26 @@
 {
-    "name": "iron1902/basic-sevdesk-api",
-    "description": "Basic PHP REST API client for sevDesk accounting software",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Fabian Silberer",
-            "email": "fabian@silberer.de"
-        }
-    ],
-    "require": {
-        "php": ">=7.2.0",
-        "guzzlehttp/guzzle": "^6.5|^7.0",
-        "caseyamcl/guzzle_retry_middleware": "^2.3"
+  "name": "bennetgallein/basic-sevdesk-api",
+  "description": "Basic PHP REST API client for sevDesk accounting software",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabian Silberer",
+      "email": "fabian@silberer.de"
     },
-    "autoload": {
-        "psr-4": {
-          "Iron1902\\BasicSevdeskAPI\\": "src/Iron1902/BasicSevdeskAPI"
-        }
+    {
+      "name": "Bennet Gallein",
+      "email": "me@bennetgallein.de"
     }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^6.5|^7.0",
+    "caseyamcl/guzzle_retry_middleware": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iron1902\\BasicSevdeskAPI\\": "src/Iron1902/BasicSevdeskAPI"
+    }
+  }
 }

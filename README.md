@@ -2,14 +2,14 @@
 
 A simple API wrapper for sevDesk using Guzzle.
 
-
 ## Installation
+
+Note: this is a fork.
 
 The recommended way to install is [through composer](http://packagist.org).
 
-    composer require iron1902/basic-sevdesk-api
-    
-    
+    composer require bennetgallein/basic-sevdesk-api
+
 ## Using the api
 
 For REST calls, the api-key is required.
